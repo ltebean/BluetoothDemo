@@ -13,6 +13,8 @@
 		B3DA24FE1D4B4EB8007F1FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DA24FC1D4B4EB8007F1FB7 /* Main.storyboard */; };
 		B3DA25001D4B4EB8007F1FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DA24FF1D4B4EB8007F1FB7 /* Assets.xcassets */; };
 		B3DA25031D4B4EB8007F1FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DA25011D4B4EB8007F1FB7 /* LaunchScreen.storyboard */; };
+		B3DA250B1D4B51D5007F1FB7 /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA250A1D4B51D5007F1FB7 /* CentralViewController.swift */; };
+		B3DA250D1D4B51E8007F1FB7 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA250C1D4B51E8007F1FB7 /* PeripheralViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B3DA24FF1D4B4EB8007F1FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3DA25021D4B4EB8007F1FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3DA25041D4B4EB8007F1FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DA250A1D4B51D5007F1FB7 /* CentralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
+		B3DA250C1D4B51E8007F1FB7 /* PeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				B3DA24F81D4B4EB8007F1FB7 /* AppDelegate.swift */,
 				B3DA24FA1D4B4EB8007F1FB7 /* ViewController.swift */,
+				B3DA250A1D4B51D5007F1FB7 /* CentralViewController.swift */,
+				B3DA250C1D4B51E8007F1FB7 /* PeripheralViewController.swift */,
 				B3DA24FC1D4B4EB8007F1FB7 /* Main.storyboard */,
 				B3DA24FF1D4B4EB8007F1FB7 /* Assets.xcassets */,
 				B3DA25011D4B4EB8007F1FB7 /* LaunchScreen.storyboard */,
@@ -210,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DA250D1D4B51E8007F1FB7 /* PeripheralViewController.swift in Sources */,
 				B3DA24FB1D4B4EB8007F1FB7 /* ViewController.swift in Sources */,
+				B3DA250B1D4B51D5007F1FB7 /* CentralViewController.swift in Sources */,
 				B3DA24F91D4B4EB8007F1FB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
